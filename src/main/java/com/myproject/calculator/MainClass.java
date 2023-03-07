@@ -14,23 +14,23 @@ package com.myproject.calculator;
             int secondNumber = scan.nextInt();
 
             //set the values in VO
-            CalculatorVo calVO = new CalculatorVo12();
-            calVO.setFirstNumber(firstNumber);
-            calVO.setSecondNumber(secondNumber);
+       //     CalculatorVo calVO = new CalculatorVo12();
+//            calVO.setFirstNumber(firstNumber);
+//            calVO.setSecondNumber(secondNumber);
 
             Calculator cal = new Calculator();
-
-            int addResult = cal.add(calVO.getFirstNumber(), calVO.getSecondNumber());
-            System.out.println("Addition Result ="+addResult);
-
-            int subResult = cal.substract(calVO.getFirstNumber(), calVO.getSecondNumber());
-            System.out.println("Subtraction Result ="+subResult);
-
-            int mulResult = cal.multiply(calVO.getFirstNumber(), calVO.getSecondNumber());
-            System.out.println("Multiplication Result ="+mulResult);
-
-            float divResult = cal.divide(calVO.getFirstNumber(), calVO.getSecondNumber());
-            System.out.println("Division Result ="+divResult);
+//
+//            int addResult = cal.add(calVO.getFirstNumber(), calVO.getSecondNumber());
+//            System.out.println("Addition Result ="+addResult);
+//
+//            int subResult = cal.substract(calVO.getFirstNumber(), calVO.getSecondNumber());
+//            System.out.println("Subtraction Result ="+subResult);
+//
+//            int mulResult = cal.multiply(calVO.getFirstNumber(), calVO.getSecondNumber());
+//            System.out.println("Multiplication Result ="+mulResult);
+//
+//            float divResult = cal.divide(calVO.getFirstNumber(), calVO.getSecondNumber());
+//            System.out.println("Division Result ="+divResult);
 
         }
 }
