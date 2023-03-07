@@ -14,7 +14,7 @@ package com.myproject.calculator;
             int secondNumber = scan.nextInt();
 
             //set the values in VO
-            CalculatorVo calVO = new CalculatorVo();
+            CalculatorVo calVO = new CalculatorVo12();
             calVO.setFirstNumber(firstNumber);
             calVO.setSecondNumber(secondNumber);
 
